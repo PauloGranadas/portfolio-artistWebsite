@@ -9,6 +9,8 @@
     --backgoundNav: #dedfe0;
     --textcolor : #ffffff ;
     --navBgcColor: #1780a0;
+    --navBgcColorHover: #71b3c7;
+
 }
 body{
     background-color: var(--backgoundColor);
@@ -19,11 +21,7 @@ nav{
     justify-content:space-between ;
     background-color: var(--backgoundNav);
 }
-nav div{
-    display: flex;
-    justify-content:space-between;
-    background-color: var(--backgoundNav);
-}
+
 nav img {
     width: 7rem;
     height: 7rem;
@@ -31,12 +29,12 @@ nav img {
 }
 nav li{
     list-style: none;
-    color: var(--navTextColor) ;
     background-color: var(--navBgcColor);
     border-radius: 10px;
     color: var(--textcolor);
     padding: 0.2rem;
     margin: 3px;
+    width: 15vh;
     height: 25px;
     text-align: center;
     font-size: smaller;
@@ -44,6 +42,9 @@ nav li{
 nav a{
     color: var(--navTextColor);
     text-decoration: none;
+}
+nav li:hover{
+    background-color: var(--navBgcColorHover);
 }
 main{
     text-align: center;

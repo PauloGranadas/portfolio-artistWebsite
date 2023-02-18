@@ -4,22 +4,48 @@
     padding: 0;
     border: 0;
 }
-
 :root {
-    --backgoundColor : rgb(27, 15, 26);
-    --backgoundNav: #7c6472;
-    --textcolor : #eeccdd ;
-    --dark_green: #0c7973;
-    --beige: #feebda;
-    --green : #2a8878;
-    --pink : #e782a4;
-    --pink_dark : #991d42;
+    --backgoundColor : #1780a0;
+    --backgoundNav: #dedfe0;
+    --textcolor : #ffffff ;
+    --navBgcColor: #1780a0;
 }
 body{
     background-color: var(--backgoundColor);
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
+    background-color: var(--backgoundNav);
+}
+nav div{
+    display: flex;
+    justify-content:space-between;
+    background-color: var(--backgoundNav);
+}
+nav img {
+    width: 7rem;
+    height: 7rem;
+    padding: 10px;
+}
+nav li{
+    list-style: none;
+    color: var(--navTextColor) ;
+    background-color: var(--navBgcColor);
+    border-radius: 10px;
+    color: var(--textcolor);
+    padding: 0.2rem;
+    margin: 3px;
+    height: 25px;
+    text-align: center;
+    font-size: smaller;
+}
+nav a{
+    color: var(--navTextColor);
+    text-decoration: none;
 }
 main{
-    /* background-image: url(../imgs/photos/26-4209x2769.jpg); */
     text-align: center;
     color: var(--textcolor) ;
 }

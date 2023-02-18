@@ -1,0 +1,26 @@
+*:not(input){
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --backgoundColor : rgb(27, 15, 26);
+    --backgoundNav: #7c6472;
+    --textcolor : #eeccdd ;
+    --dark_green: #0c7973;
+    --beige: #feebda;
+    --green : #2a8878;
+    --pink : #e782a4;
+    --pink_dark : #991d42;
+}
+body{
+    background-color: var(--backgoundColor);
+}
+main{
+    /* background-image: url(../imgs/photos/26-4209x2769.jpg); */
+    text-align: center;
+    color: var(--textcolor) ;
+}
+

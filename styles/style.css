@@ -50,4 +50,19 @@ main{
     text-align: center;
     color: var(--textcolor) ;
 }
-
+#contactForm{
+    display: flex;
+}
+#contactForm input{
+    display: flex;
+    margin: 1rem;
+    margin: auto;
+}
+#contactFormBottom{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+#contactFormBottom input{
+    gap: 0.5rem;
+}

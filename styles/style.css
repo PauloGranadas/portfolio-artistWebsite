@@ -20,12 +20,17 @@ nav{
     display: flex;
     justify-content:space-between ;
     background-color: var(--backgoundNav);
+    align-items: center;
 }
 
 nav img {
     width: 7rem;
     height: 7rem;
     padding: 10px;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
 }
 nav li{
     list-style: none;
@@ -50,13 +55,18 @@ main{
     text-align: center;
     color: var(--textcolor) ;
 }
-#contactForm{
+
+#contactFormHeader{
     display: flex;
+    width: 90%;
+    justify-items: center;
+
 }
-#contactForm input{
+#contactFormHeader input{
     display: flex;
-    margin: 1rem;
-    margin: auto;
+    width: 90%;
+    
+ 
 }
 #contactFormBottom{
     display: flex;
